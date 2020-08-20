@@ -1,0 +1,35 @@
+{
+  "name": "koronavirovaopatreni",
+  "version": "1.0.0",
+  "description": "100% přesný generátor opatření proti koronaviru",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tehSIRius/koronavirovaOpatreni.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "jest"
+  ],
+  "author": "Patrik Dvořáček",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tehSIRius/koronavirovaOpatreni/issues"
+  },
+  "homepage": "https://github.com/tehSIRius/koronavirovaOpatreni#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.4.1",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "pino": "^6.5.1"
+  }
+}
